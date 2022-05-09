@@ -1,0 +1,15 @@
+{
+  "name": "quizapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/js/app.js",
+  "scripts": {
+    "tail": "npx tailwindcss -i ./tailwind.css -o ./dist/css/app.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  }
+}
